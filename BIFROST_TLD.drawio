@@ -351,11 +351,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-19" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Sistema de recepción" vertex="1">
-          <mxGeometry height="120" width="140" x="30" y="290" as="geometry" />
+          <mxGeometry height="390" width="140" x="30" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="1O4vufzpAIjCamaSP1wO-13" collapsed="1" parent="1O4vufzpAIjCamaSP1wO-19" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Demodulador" vertex="1">
-          <mxGeometry height="30" width="140" y="30" as="geometry">
-            <mxRectangle height="120" width="140" x="330" y="390" as="alternateBounds" />
+        <mxCell id="1O4vufzpAIjCamaSP1wO-13" parent="1O4vufzpAIjCamaSP1wO-19" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Demodulador" vertex="1">
+          <mxGeometry height="120" width="140" y="30" as="geometry">
+            <mxRectangle height="30" width="140" y="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-14" parent="1O4vufzpAIjCamaSP1wO-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="BPSK / QPSK" vertex="1">
@@ -367,9 +367,9 @@
         <mxCell id="1O4vufzpAIjCamaSP1wO-16" parent="1O4vufzpAIjCamaSP1wO-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Interfaz SPI" vertex="1">
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="1O4vufzpAIjCamaSP1wO-8" collapsed="1" parent="1O4vufzpAIjCamaSP1wO-19" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Amplificador" vertex="1">
-          <mxGeometry height="30" width="140" y="60" as="geometry">
-            <mxRectangle height="120" width="140" x="180" y="390" as="alternateBounds" />
+        <mxCell id="1O4vufzpAIjCamaSP1wO-8" parent="1O4vufzpAIjCamaSP1wO-19" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Amplificador" vertex="1">
+          <mxGeometry height="120" width="140" y="150" as="geometry">
+            <mxRectangle height="30" width="140" y="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-9" parent="1O4vufzpAIjCamaSP1wO-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Bajo ruido" vertex="1">
@@ -381,9 +381,9 @@
         <mxCell id="1O4vufzpAIjCamaSP1wO-11" parent="1O4vufzpAIjCamaSP1wO-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Amplificación de X dB" vertex="1">
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="1O4vufzpAIjCamaSP1wO-2" collapsed="1" parent="1O4vufzpAIjCamaSP1wO-19" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Antena receptora" vertex="1">
-          <mxGeometry height="30" width="140" y="90" as="geometry">
-            <mxRectangle height="120" width="140" x="30" y="390" as="alternateBounds" />
+        <mxCell id="1O4vufzpAIjCamaSP1wO-2" parent="1O4vufzpAIjCamaSP1wO-19" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Antena receptora" vertex="1">
+          <mxGeometry height="120" width="140" y="270" as="geometry">
+            <mxRectangle height="30" width="140" y="270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-3" parent="1O4vufzpAIjCamaSP1wO-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Circ. pol. omnidireccional" vertex="1">
@@ -396,11 +396,11 @@
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-27" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Sistema de transmisión" vertex="1">
-          <mxGeometry height="120" width="140" x="190" y="290" as="geometry" />
+          <mxGeometry height="390" width="140" x="190" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="1O4vufzpAIjCamaSP1wO-28" collapsed="1" parent="1O4vufzpAIjCamaSP1wO-27" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Modulación" vertex="1">
-          <mxGeometry height="30" width="140" y="30" as="geometry">
-            <mxRectangle height="120" width="140" y="30" as="alternateBounds" />
+        <mxCell id="1O4vufzpAIjCamaSP1wO-28" parent="1O4vufzpAIjCamaSP1wO-27" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Modulación" vertex="1">
+          <mxGeometry height="120" width="140" y="30" as="geometry">
+            <mxRectangle height="30" width="140" y="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-29" parent="1O4vufzpAIjCamaSP1wO-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="BPSK / QPSK" vertex="1">
@@ -412,9 +412,9 @@
         <mxCell id="1O4vufzpAIjCamaSP1wO-31" parent="1O4vufzpAIjCamaSP1wO-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Interfaz SPI" vertex="1">
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="1O4vufzpAIjCamaSP1wO-32" collapsed="1" parent="1O4vufzpAIjCamaSP1wO-27" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Amplificador" vertex="1">
-          <mxGeometry height="30" width="140" y="60" as="geometry">
-            <mxRectangle height="120" width="140" y="60" as="alternateBounds" />
+        <mxCell id="1O4vufzpAIjCamaSP1wO-32" parent="1O4vufzpAIjCamaSP1wO-27" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Amplificador" vertex="1">
+          <mxGeometry height="120" width="140" y="150" as="geometry">
+            <mxRectangle height="30" width="140" y="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-33" parent="1O4vufzpAIjCamaSP1wO-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Bajo ruido" vertex="1">
@@ -426,9 +426,9 @@
         <mxCell id="1O4vufzpAIjCamaSP1wO-35" parent="1O4vufzpAIjCamaSP1wO-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Amplificación de X dB" vertex="1">
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="1O4vufzpAIjCamaSP1wO-36" collapsed="1" parent="1O4vufzpAIjCamaSP1wO-27" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Antena transmisora" vertex="1">
-          <mxGeometry height="30" width="140" y="90" as="geometry">
-            <mxRectangle height="120" width="140" y="90" as="alternateBounds" />
+        <mxCell id="1O4vufzpAIjCamaSP1wO-36" parent="1O4vufzpAIjCamaSP1wO-27" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Antena transmisora" vertex="1">
+          <mxGeometry height="120" width="140" y="270" as="geometry">
+            <mxRectangle height="30" width="140" y="270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-37" parent="1O4vufzpAIjCamaSP1wO-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Circ. pol. direccional" vertex="1">
@@ -441,11 +441,11 @@
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-41" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Almacenamiento" vertex="1">
-          <mxGeometry height="90" width="140" x="350" y="290" as="geometry" />
+          <mxGeometry height="240" width="140" x="350" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="1O4vufzpAIjCamaSP1wO-49" collapsed="1" parent="1O4vufzpAIjCamaSP1wO-41" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Memoria temporal" vertex="1">
-          <mxGeometry height="30" width="140" y="30" as="geometry">
-            <mxRectangle height="90" width="140" y="30" as="alternateBounds" />
+        <mxCell id="1O4vufzpAIjCamaSP1wO-49" parent="1O4vufzpAIjCamaSP1wO-41" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Memoria temporal" vertex="1">
+          <mxGeometry height="90" width="140" y="30" as="geometry">
+            <mxRectangle height="30" width="140" y="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-50" parent="1O4vufzpAIjCamaSP1wO-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Verificación de datos" vertex="1">
@@ -454,9 +454,9 @@
         <mxCell id="1O4vufzpAIjCamaSP1wO-51" parent="1O4vufzpAIjCamaSP1wO-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Determinar modulación" vertex="1">
           <mxGeometry height="30" width="140" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="1O4vufzpAIjCamaSP1wO-45" collapsed="1" parent="1O4vufzpAIjCamaSP1wO-41" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Memoria largo plazo" vertex="1">
-          <mxGeometry height="30" width="140" y="60" as="geometry">
-            <mxRectangle height="120" width="140" y="30" as="alternateBounds" />
+        <mxCell id="1O4vufzpAIjCamaSP1wO-45" parent="1O4vufzpAIjCamaSP1wO-41" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Memoria largo plazo" vertex="1">
+          <mxGeometry height="120" width="140" y="120" as="geometry">
+            <mxRectangle height="30" width="140" y="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1O4vufzpAIjCamaSP1wO-46" parent="1O4vufzpAIjCamaSP1wO-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Interfaz SPI" vertex="1">
